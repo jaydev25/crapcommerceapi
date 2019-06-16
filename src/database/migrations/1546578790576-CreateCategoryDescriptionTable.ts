@@ -54,13 +54,13 @@ export class CreateCategoryDescriptionTable1546578790576 implements MigrationInt
                     type: 'datetime',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 } , {
                     name: 'modified_date',
                     type: 'datetime',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 } , {
                     name: 'created_by',
                     type: 'int',

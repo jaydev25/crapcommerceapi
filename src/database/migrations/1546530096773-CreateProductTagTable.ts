@@ -48,13 +48,13 @@ export class CreateProductTagTable1546530096773 implements MigrationInterface {
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 }, {
                     name: 'modified_date',
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 },
             ],
         });

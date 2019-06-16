@@ -67,13 +67,13 @@ export class CreateProductImageTable1546579410193 implements MigrationInterface 
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 }, {
                     name: 'modified_date',
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 },
             ],
         });

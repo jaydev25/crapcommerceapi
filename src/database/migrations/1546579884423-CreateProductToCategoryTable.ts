@@ -49,13 +49,13 @@ export class CreateProductToCategoryTable1546579884423 implements MigrationInter
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 }, {
                     name: 'modified_date',
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 },
             ],
         });

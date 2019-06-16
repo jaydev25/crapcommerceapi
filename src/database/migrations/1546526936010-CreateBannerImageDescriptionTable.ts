@@ -55,13 +55,13 @@ export class CreateBannerImageDescriptionTable1546526936010 implements Migration
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 }, {
                     name: 'modified_date',
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 },
             ],
         });

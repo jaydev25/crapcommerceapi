@@ -59,13 +59,13 @@ export class CreateCustomerTransactionTable1546527306595 implements MigrationInt
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 }, {
                     name: 'modified_date',
                     type: 'DATETIME',
                     isPrimary: false,
                     isNullable: true,
-                    default:  'CURRENT_TIMESTAMP',
+                    default:  null,
                 },
             ],
         });
