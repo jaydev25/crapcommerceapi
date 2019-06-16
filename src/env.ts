@@ -78,23 +78,23 @@ export const env = {
 };
 
 export const mail = {
-    SERVICE: getOsEnv('MAIL_DRIVER'),
-    HOST: getOsEnv('MAIL_HOST'),
-    PORT: getOsEnv('MAIL_PORT'),
-    SECURE: getOsEnv('MAIL_SECURE'),
-    FROM: getOsEnv('MAIL_FROM'),
-    AUTH: {
-        user: getOsEnv('MAIL_USERNAME'),
-        pass: getOsEnv('MAIL_PASSWORD'),
-    },
+    // SERVICE: getOsEnv('MAIL_DRIVER'),
+    // HOST: getOsEnv('MAIL_HOST'),
+    // PORT: getOsEnv('MAIL_PORT'),
+    // SECURE: getOsEnv('MAIL_SECURE'),
+    // FROM: getOsEnv('MAIL_FROM'),
+    // AUTH: {
+    //     user: getOsEnv('MAIL_USERNAME'),
+    //     pass: getOsEnv('MAIL_PASSWORD'),
+    // },
     ADMIN_EMAIL: getOsEnv('ADMIN_EMAIL'),
     ADMIN_EMAIL_KEY: getOsEnv('ADMIN_EMAIL_KEY'),
 };
 
 // AWS S3 Access Key
 export const aws_setup = {
-    AWS_ACCESS_KEY_ID: getOsEnv('AWS_ACCESS_KEY_ID'),
-    AWS_SECRET_ACCESS_KEY: getOsEnv('AWS_SECRET_ACCESS_KEY'),
-    AWS_DEFAULT_REGION: getOsEnv('AWS_DEFAULT_REGION'),
-    AWS_BUCKET: getOsEnv('AWS_BUCKET'),
+    // AWS_ACCESS_KEY_ID: getOsEnv('AWS_ACCESS_KEY_ID'),
+    // AWS_SECRET_ACCESS_KEY: getOsEnv('AWS_SECRET_ACCESS_KEY'),
+    // AWS_DEFAULT_REGION: getOsEnv('AWS_DEFAULT_REGION'),
+    // AWS_BUCKET: getOsEnv('AWS_BUCKET'),
 };
