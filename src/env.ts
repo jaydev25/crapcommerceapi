@@ -82,7 +82,7 @@ export const mail = {
     // HOST: getOsEnv('MAIL_HOST'),
     // PORT: getOsEnv('MAIL_PORT'),
     // SECURE: getOsEnv('MAIL_SECURE'),
-    // FROM: getOsEnv('MAIL_FROM'),
+    FROM: getOsEnv('MAIL_FROM'),
     // AUTH: {
     //     user: getOsEnv('MAIL_USERNAME'),
     //     pass: getOsEnv('MAIL_PASSWORD'),
