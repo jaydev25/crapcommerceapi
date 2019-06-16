@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nps",
     "test": "npm start test",
-    "build": "npm run setup && npm run setup dbseed && npm start build",
+    "build": "npm start build",
     "presetup": "npm install",
     "setup": "npm start config && npm start setup.script"
   },
