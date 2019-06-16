@@ -7,7 +7,7 @@
     "start": "nps",
     "test": "npm start test",
     "build": "npm run setup && npm run setup dbseed && npm start build",
-    "presetup": "npm install",
+    "presetup": "npm install && npm install typeorm-seeding@1.0.0-beta.6 --save",
     "setup": "npm start config && npm start setup.script"
   },
   "engines": {
@@ -81,7 +81,7 @@
     "type-graphql": "^0.15.0",
     "typedi": "0.8.0",
     "typeorm": "^0.2.5",
-    "typeorm-seeding": "^1.0.0-beta.6",
+    "typeorm-seeding": "1.0.0-beta.6",
     "typeorm-typedi-extensions": "^0.2.1",
     "typescript": "3.0.3",
     "uuid": "^3.3.2",
