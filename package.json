@@ -4,7 +4,7 @@
   "description": "SpurtCommerce RESTFUL API",
   "main": "src/app.ts",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "nps",
     "test": "npm start test",
     "build": "npm run setup && npm run setup dbseed && npm start build",
     "presetup": "npm install && npm install typeorm-seeding@1.0.0-beta.6 --save",

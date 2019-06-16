@@ -6,7 +6,7 @@ const { series, rimraf, } = require('nps-utils');
 
 module.exports = {
     scripts: {
-        default: 'nps start',
+        default: 'nps production',
         /**
          * Starts the builded app from the dist directory.
          */
@@ -25,7 +25,7 @@ module.exports = {
          * Starts the builded app from the dist directory.
          */
         production: {
-            script: 'cross-env NODE_ENV=production node dist/app.js',
+            script: 'node dist/app.js',
             description: 'Starts the builded app',
         },
         /**
