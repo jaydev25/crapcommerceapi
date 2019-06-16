@@ -1,8 +1,8 @@
 import { Connection } from 'typeorm';
-import { Factory, Seed } from 'typeorm-seeding';
+import { Factory, Seeder } from 'typeorm-seeding';
 import { User } from '../../api/models/User';
 import { UserGroup } from '../../api/models/UserGroup';
-export class CreateUser implements Seed {
+export class CreateUser implements Seeder {
 
     public async seed(factory: Factory, connection: Connection): Promise<User> {
         const em = connection.createEntityManager();
