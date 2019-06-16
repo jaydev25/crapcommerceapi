@@ -24,7 +24,7 @@ dotenv.config({ path: path.join(process.cwd(), `.env${((process.env.NODE_ENV ===
  * Environment variables
  */
 export const env = {
-    node: process.env.NODE_ENV || 'development',
+    node: getOsEnv('NODE_ENV') || 'development',
     isProduction: process.env.NODE_ENV === 'production',
     isTest: process.env.NODE_ENV === 'test',
     isDevelopment: process.env.NODE_ENV === 'development',
