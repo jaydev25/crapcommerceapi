@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
-import { Factory, Seeder } from 'typeorm-seeding';
+import { Factory, Seed } from 'typeorm-seeding';
 import { EmailTemplate } from '../../api/models/emailTemplate';
-export class CreateEmailTemplate implements Seeder {
+export class CreateEmailTemplate implements Seed {
 
     public async seed(factory: Factory, connection: Connection): Promise<EmailTemplate> {
         const em = connection.createEntityManager();

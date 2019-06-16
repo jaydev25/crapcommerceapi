@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
-import { Factory, Seeder } from 'typeorm-seeding';
+import { Factory, Seed } from 'typeorm-seeding';
 import { Settings } from '../../api/models/setting';
-export class CreateSetting implements Seeder {
+export class CreateSetting implements Seed {
 
     public async seed(factory: Factory, connection: Connection): Promise<Settings> {
         const em = connection.createEntityManager();
