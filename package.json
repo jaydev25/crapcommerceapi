@@ -7,7 +7,7 @@
     "start": "nps",
     "test": "npm start test",
     "build": "npm start build",
-    "presetup": "npm install",
+    "presetup": "npm install && npm run setup && npm run setup dbseed",
     "setup": "npm start config && npm start setup.script"
   },
   "engines": {
