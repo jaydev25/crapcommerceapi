@@ -108,7 +108,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/bcrypt": "^2.0.0",
-    "@types/bluebird": "^3.5.18",
     "@types/chalk": "^2.2.0",
     "@types/commander": "^2.11.0",
     "@types/cors": "^2.8.1",
